@@ -18,8 +18,8 @@
         document.getElementById('queryForm').addEventListener('submit', function(event) {
             event.preventDefault();
             const query = document.getElementById('query').value;
-            fetch('https://your-api-gateway-endpoint', {
-                method: 'GET',
+            fetch('https://x6pjm2do7k.execute-api.us-east-1.amazonaws.com/dev', {
+                method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
                 },
